@@ -23,10 +23,15 @@ we use this command for installing cli -- npm install -g @medusajs/medusa-cli
 Step three:
 
 Once Medusa cli is installed, we have to run commands to set up the Medusa backend.
-We use the command : medusa new my-medusa-app
+We use the command : 
+
+medusa new my-medusa-app
 During this setup, it asks for the database configuration. We should select “change credentials” here to input our database.
-Then cd my-medusa-app\
+Then 
+
+       cd my-medusa-app\
        medusa develop
+       
   We can see the login screen http://localhost:7001/login page of the browser automatically.
   
 Step four:
