@@ -1,4 +1,6 @@
 Task 1 – Integrate and Run medusa locally
+
+
 Step one:
 We have to install the prerequisites for this task. They are-
 •	Git
@@ -10,6 +12,7 @@ We have to install the prerequisites for this task. They are-
  ![image](https://github.com/user-attachments/assets/64024181-1b5c-4e54-88f6-c4e0f6aa276b)
 
 Step two:
+
 Now we have to install the Medusa cli.
 we use this command for installing cli -- npm install -g @medusajs/medusa-cli 
 
@@ -18,17 +21,24 @@ we use this command for installing cli -- npm install -g @medusajs/medusa-cli
 ![image](https://github.com/user-attachments/assets/fd9f1d11-788d-4ff2-9720-c8117d25b18b)
 
 Step three:
+
 Once Medusa cli is installed, we have to run commands to set up the Medusa backend.
 We use the command : medusa new my-medusa-app
 During this setup, it asks for the database configuration. We should select “change credentials” here to input our database.
 Then cd my-medusa-app\
        medusa develop
   We can see the login screen http://localhost:7001/login page of the browser automatically.
+  
 Step four:
+
 We use “npm run seed” to add sample seed data to our database.
+
 Step five:
+
 Now run “medusa develop” to run your application.
+
 Step six:
+
 Medusa application will be available now on the browser at http://localhost:7001/login
 We can use a sample gmail and password to login into medusa.
 
