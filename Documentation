@@ -1,6 +1,6 @@
               **Task 1 : Integrate and Run Medusa locally **
 Step 1:
-For this task we need prerequisites. 
+For this task we need prerequisites.
 They are: 
 1.	Nodejs : https://nodejs.org/en/download/prebuilt-installer
 2.	PostgreSQL : https://www.postgresql.org/download/windows/
