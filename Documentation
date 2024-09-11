@@ -1,0 +1,35 @@
+              **Task 1 : Integrate and Run Medusa locally **
+Step 1:
+For this task we need prerequisites. 
+They are: 
+1.	Nodejs : https://nodejs.org/en/download/prebuilt-installer
+2.	PostgreSQL : https://www.postgresql.org/download/windows/
+3.	Git : https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+•	We can check the installation of them using the commands 
+           "node -v, npm -v, git --version"
+Step 2 :
+•	This step is the installation of the “medusa cli”. We use the command –
+"npm install -g @medusajs/medusa-cli ".
+•	This step installs the medusa CLI.
+•	Check medusa CLI using the command – 
+"medusa –version".
+
+Step 3:
+•	This step is the installation of the Medusa backend. We use the command --medusa new my-medusa-app.
+•	At the end of the setup we will be asked about the database creation. Here we have to select the change credentials and give our inputs for the PostgreSQL database.
+•	Once the setup is over the directory of Medusa will be created.
+•	We have to use the command 
+"cd my-medusa-app" (i.e. going inside the directory)
+
+Step 4:
+•	Then we should go with the command 
+"npm run seed" to add sample seed data to our database.
+
+Step 5:
+•	Then we should give the command that redirects our browser to the page http://localhost:7001/login 
+The command is "medusa develop".
+
+Step 6:
+•	Medusa is now accessible through its login page. We can give email and password to log into it.
+
